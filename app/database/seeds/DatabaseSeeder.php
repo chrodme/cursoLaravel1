@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder {
 		Eloquent::unguard();
 		//para usar estas lineas de codigo usar en consola
 		//php artisan db:seed
-		$this->call('CategoryTableSeeder');
+		//$this->call('CategoryTableSeeder');
 		$this->call('CandidateTableSeeder');
 		//$this->call('UserTableSeeder');
 	}
